@@ -1,11 +1,11 @@
 
 from typing import List, Dict, Set
-from collections import deque
+from collections import deque, defaultdict
 
 class Graph:
     
     def __init__(self):
-        self.graph : Dict[int, Set[int]] = {}
+        self.graph : Dict[int, Set[int]] = defaultdict()
     
     def add_edge(self, vertex : int, neighbor : int) -> None:
         if vertex not in self.graph:
