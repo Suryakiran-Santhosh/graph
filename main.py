@@ -18,6 +18,9 @@ def main():
     graph.add_vertex(8)
     graph.add_vertex(7)
     graph.display()
+    print(f"DFS Traversal: {graph.dfs(1)}")
+    print(f"BFS Traversal: {graph.bfs(1)}")
+
 
 
 if __name__ == "__main__":
