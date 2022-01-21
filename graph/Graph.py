@@ -18,4 +18,4 @@ class Graph:
 
     def display(self) -> None:
         for key, value in self.graph.items():
-            print(f"{key} : {list(value)}")
+            print(f"{key} : {value}")
