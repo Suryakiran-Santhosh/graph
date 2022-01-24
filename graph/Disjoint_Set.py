@@ -1,8 +1,5 @@
 
 
-from logging import root
-
-
 class Disjoint_Set:
     def __init__(self, number_of_vertices : int) -> None:
         self.root = [ i for i in range(0, number_of_vertices, 1) ]
